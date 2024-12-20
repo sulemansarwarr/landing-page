@@ -1,0 +1,114 @@
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+body {
+    background-color: #ECEAE6 !important;
+    height: 100%;
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.footer {
+    background-color: #021926;
+    color: white;
+    padding: 10px;
+}
+
+.btn-center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-btn {
+    border: 1px;
+    border-radius: 4px;
+    background-color: #FC8D35;
+    color: white;
+    width: 40%;
+    cursor: pointer;
+}
+
+.my-card {
+    height: auto;
+    width: 45%;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    list-style-type: none;
+    text-decoration: none;
+}
+.remove-line{
+    text-decoration: none;
+}
+.pl-10{
+    padding-left: 100px !important;
+}
+.m-0{
+    margin: 0%;
+}
+.p-0{
+    padding: 0.5px;
+}
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding: 20px;
+}
+.bg-black{
+    background-color:#363636;
+}
+.bg-gray{
+    background-color:#E1E1E1;
+}
+.bg-orange{
+    background-color: #F6DC3C;
+}
+.color-white{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-small {
+    font-size: 8px;
+}
+
+.my-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.col-6 {
+    width: 100% !important;
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+.text-large {
+    font-size: 120px;
+}
